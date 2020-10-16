@@ -15,7 +15,7 @@
   </div>
   <div class="rent">
     <%= form.label :賃料 %><br>
-    <%= form.text_field :rent %>円
+    <%= form.number_field :rent %>円
   </div>
   <div class="street_address">
     <%= form.label :住所 %><br>
@@ -23,11 +23,11 @@
   </div>
   <div class="age">
     <%= form.label :築年数 %><br>
-    <%= form.text_field :age %>年
+    <%= form.number_field :age %>年
   </div>
   <div class="remark">
     <%= form.label :備考 %><br>
-    <%= form.text_field :remark %>
+    <%= form.text_area :remark %>
   </div>
   <br>
   <div class="line"></div>
